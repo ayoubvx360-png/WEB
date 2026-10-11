@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMINOX | Official Streamer & Content Creator</title>
+  <meta name="description" content="Official link hub and social channels for AMINOX - Streamer & Content Creator from Morocco. Watch on Kick, TikTok, Instagram & Discord.">
+  <meta name="theme-color" content="#0d0e15">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glows & Particles -->
+  <div class="background-effects">
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+    <div class="cyber-grid"></div>
+    <canvas id="particles-canvas"></canvas>
+  </div>
+
+  <main class="page-wrapper">
+    <!-- Hero / Profile Section -->
+    <header class="profile-hero">
+      <div class="profile-card">
+        <!-- Avatar Wrapper with Animated Neon Ring -->
+        <div class="avatar-container">
+          <div class="avatar-ring-outer"></div>
+          <div class="avatar-ring-pulse"></div>
+          <div class="avatar-frame">
+            <img src="assets/avatar.jpg" alt="AMINOX Avatar" class="avatar-img" id="profile-avatar">
+          </div>
+          <div class="live-pill" id="live-badge">
+            <span class="live-dot"></span>
+            <span class="live-text">LIVE</span>
+          </div>
+        </div>
+
+        <!-- Creator Info -->
+        <div class="creator-info">
+          <div class="crown-badge">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/>
+            </svg>
+          </div>
+          <h1 class="creator-name">
+            <span class="name-gradient">AMINOX</span>
+          </h1>
+          <p class="creator-tagline">Streamer and Content Creator</p>
+
+          <!-- Badges / Tags -->
+          <div class="badges-row">
+            <span class="badge badge-purple">
+              <span class="badge-icon">⚡</span> Content 24/7
+            </span>
+            <span class="badge badge-morocco">
+              <span class="badge-flag">🇲🇦</span> Morocco
+            </span>
+            <span class="badge badge-gaming">
+              <span class="badge-icon">🎮</span> Gaming
+            </span>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="quick-cta-row">
+            <a href="https://kick.com/aminoxofficial" target="_blank" rel="noopener noreferrer" class="cta-btn cta-kick" id="quick-kick-btn">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M4 3h5v6h2V3h5v6h-2v2h2v2h2V9h2v12h-5v-6h-2v6H4V3zm5 8h2v2H9v-2z"/>
+              </svg>
+              <span>Watch on Kick</span>
+              <span class="pulse-indicator"></span>
+            </a>
+            <a href="https://discord.gg/4S6yz8G5ub" target="_blank" rel="noopener noreferrer" class="cta-btn cta-discord" id="quick-discord-btn">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.893.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+              </svg>
+              <span>Discord Community</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Channels Section -->
+    <section class="channels-section" aria-label="Official Channels">
+      <div class="section-header">
+        <h2 class="section-title">Official Channels</h2>
+        <div class="section-title-bar"></div>
+      </div>
+
+      <div class="channels-grid">
+        <!-- Kick Card -->
+        <a href="https://kick.com/aminoxofficial" target="_blank" rel="noopener noreferrer" class="channel-card card-kick" id="card-kick">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-meta">
+              <span class="channel-badge live-tag">Streaming</span>
+              <h3 class="channel-platform">Kick</h3>
+              <p class="channel-handle">aminoxofficial</p>
+            </div>
+            <div class="card-icon-box">
+              <!-- Kick SVG Logo -->
+              <svg viewBox="0 0 24 24" class="platform-icon" fill="currentColor">
+                <path d="M4 3h5v6h2V3h5v6h-2v2h2v2h2V9h2v12h-5v-6h-2v6H4V3zm5 8h2v2H9v-2z"/>
+              </svg>
+              <div class="arrow-indicator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- TikTok Card -->
+        <a href="https://www.tiktok.com/@amin.chak?_r=1" target="_blank" rel="noopener noreferrer" class="channel-card card-tiktok" id="card-tiktok">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-meta">
+              <span class="channel-badge video-tag">Shorts & Clips</span>
+              <h3 class="channel-platform">TikTok</h3>
+              <p class="channel-handle">@amin.chak</p>
+            </div>
+            <div class="card-icon-box">
+              <!-- TikTok SVG Logo -->
+              <svg viewBox="0 0 24 24" class="platform-icon" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298 0 .591.044.87.13V9.4a6.33 6.33 0 0 0-.87-.06A6.34 6.34 0 0 0 3.14 15.7 6.34 6.34 0 0 0 9.48 22a6.34 6.34 0 0 0 6.34-6.33V9.38a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.81z"/>
+              </svg>
+              <div class="arrow-indicator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Instagram Card -->
+        <a href="https://www.instagram.com/aminoxofficial/" target="_blank" rel="noopener noreferrer" class="channel-card card-instagram" id="card-instagram">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-meta">
+              <span class="channel-badge story-tag">Stories & Updates</span>
+              <h3 class="channel-platform">Instagram</h3>
+              <p class="channel-handle">aminoxofficial</p>
+            </div>
+            <div class="card-icon-box">
+              <!-- Instagram SVG Logo -->
+              <svg viewBox="0 0 24 24" class="platform-icon" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              <div class="arrow-indicator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Discord Card -->
+        <a href="https://discord.gg/4S6yz8G5ub" target="_blank" rel="noopener noreferrer" class="channel-card card-discord" id="card-discord">
+          <div class="card-glow"></div>
+          <div class="card-inner">
+            <div class="card-meta">
+              <span class="channel-badge discord-tag">Community</span>
+              <h3 class="channel-platform">Discord</h3>
+              <p class="channel-handle">Join the Server</p>
+            </div>
+            <div class="card-icon-box">
+              <!-- Discord SVG Logo -->
+              <svg viewBox="0 0 24 24" class="platform-icon" fill="currentColor">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.893.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+              </svg>
+              <div class="arrow-indicator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Quick Action Utilities (Share & Copy Link) -->
+      <div class="share-hub">
+        <button class="share-action-btn" id="copy-site-btn" title="Copy Website Link">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          <span id="copy-btn-text">Share Profile</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© <span id="current-year"></span> AMINOX. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#53FC18" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-message">Link copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
